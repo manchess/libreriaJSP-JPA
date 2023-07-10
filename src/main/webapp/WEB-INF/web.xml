@@ -1,0 +1,18 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>SvLibros</servlet-name>
+    <display-name>SvLibros1234567</display-name>
+    <servlet-class>servlets.SvLibros</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SvLibros</servlet-name>
+    <url-pattern>/SvLibros</url-pattern>
+  </servlet-mapping>
+
+</web-app>
